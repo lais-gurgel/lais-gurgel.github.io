@@ -3,77 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet" media="all">
-    <link href="https://fonts.googleapis.com/css2?family=Galada&amp;display=swap" rel="stylesheet">
-    *Adição de cor de background, alteração do estilo dos titulos e tamanho
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            font-family: 'Open Sans', sans-serif;
-            font-family: 'Raleway', sans-serif;
-            background-color: whitesmoke;
-        }
-
-        h1 {
-            font-weight: bolder;
-            color: #00072D;
-        }
-
-        .social-media{
-            font-family: 'Galada', cursive;
-        }
-
-        .texto-enfase{
-            color: #001C55;
-            font-style: italic;
-        }
-
-        .title-list{
-            color: #00072D;
-        }
-
-        .picture {
-        border-radius: 70%;
-        }
-
-    </style>
-
+    <title>LG Web Portfolio</title>
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/ddff25e76d.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hi, I'm<br>LAIS GURGEL</h1>
-    <img class="picture" src="https://github.com/lais-gurgel/lais-gurgel.github.io/blob/master/images/Profile3square.jpg?raw=true" alt="Photo of Lais Gurgel" width=150px>
-    <p><strong>Full Stack Developer Student</strong></p>
+    <header>
+        
+    </header>
+    <div id="presentation">
+        <img class="picture" src="https://github.com/lais-gurgel/lais-gurgel.github.io/blob/master/images/Profile3square.jpg?raw=true" alt="Photo of Lais Gurgel" width=150px>
+        <p>Hello, I'm</p>
+        <p id="name">LAIS GURGEL</p>
+        <p>I'm a <strong>full stack developer student</strong> with a <em class="texto-enfase">passion for technology and lifelong learning</em>, living in the city of São Paulo, Brazil. Available for <strong>freelance projects/internship opportunities!</strong></p>
+        <div id="find-me">
+            <p>FIND ME ON</p>
+            <a class="social-media" target="_blank" href="https://www.linkedin.com/in/lais-gurgel/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-media" target="_blank" href="https://github.com/lais-gurgel"><i class="fab fa-github"></i></a>
+            <a class="social-media" target="_blank" href="https://www.facebook.com/laisgurgelf"><i class="fab fa-facebook"></i></a>
+        </div>
+    </div>
+    
+    <div class="skills">
+        <h3 class="title-list">Soft Skills:</h3>
+        <p>My personal attributes</p>
+        <ul>
+            <li>Problem solving</li>
+            <li>Time Management</li>
+            <li>Teamwork</li>
+        </ul>
 
-    <p>A young programming student with a <em class="texto-enfase">passion for technology and lifelong learning</em>, living in the city of São Paulo, Brazil. </p>
+        <h3 class="title-list">Hard Skills <em class="texto-enfase">(in progress)</em>:</h3>
+        <p>Software development, front-end, back-end, computer science, software engineering, agile methodologies and behavioral skills</p>
+        <ol>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>Express.js</li>
+            <li>SQL</li>
+            <li>Git</li>
+            <p>among other languages ​​and frameworks</p>
+        </ol>
+    </div>
 
-    <h3 class="social-media" id="find-me">Find me on</h3>
-    <a target="_blank" href="https://github.com/lais-gurgel/">GitHub</a>
-    <a target="_blank" href="https://www.linkedin.com/in/lais-gurgel">LinkedIn</a>
-
-    <h3 class="title-list">Soft Skills</h3>
-    <p>My personal attributes</p>
-    <ul>
-        <li>Problem solving</li>
-        <li>Time Management</li>
-        <li>Teamwork</li>
-    </ul>
-
-    <h3 class="title-list">Hard Skills <em class="texto-enfase">(in progress)</em></h3>
-    <p>Software development, front-end, back-end, computer science, software engineering, agile methodologies and behavioral skills</p>
-    <ol>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>Express.js</li>
-        <li>SQL</li>
-        <li>Git</li>
-        <p>among other languages ​​and frameworks</p>
-    </ol>
-
-    <a class="social-media" href="#find-me">Find me on social media!</a>
+    <footer>
+        <p>Developed by Lais Gurgel</p>
+    </footer>
 
 </body>
 </html>
