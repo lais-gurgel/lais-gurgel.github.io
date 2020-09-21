@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <title>Pixels Art</title>
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Raleway&display=swap' rel='stylesheet' media='all'>
+    <link href='https://fonts.googleapis.com/css2?family=Galada&amp;display=swap' rel='stylesheet'>
+</head>
+<body>
+    <h1 id='title' class='title'>Paleta de Cores</h1>
+
+    <section id='color-palette' class='color-palette'>
+        <div class='color selected' id='black' style='background-color: black;'></div>
+        <div class='color' id='yellow' style='background-color: yellow;'></div>
+        <div class='color' id='red' style='background-color: red;'></div>
+        <div class='color' id='blue' style='background-color: blue;'></div>
+    </section>
+
+    <button id='clear-board' class='clear-board'>Limpar</button>
+    <div class='input-board-size'>
+        <label for='board-size'>Insira o tamanho do quadro</label>
+        <input id='board-size' type='number' min='1' max='50'>
+        <button id='generate-board'>VQV</button>
+    </div>
+
+    <section id='pixel-board' class='pixel-board'>
+    </section>
+
+    <script src='script.js'></script>
+
+    <footer>
+        <p>Developed by Lais Gurgel - 2020</p>
+    </footer>
+
+</body>
+</html>

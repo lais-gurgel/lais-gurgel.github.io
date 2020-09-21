@@ -11,6 +11,10 @@ header {
   height: 60px;
 }
 
+.projects {
+  background-color: #41A4F5;
+}
+
 footer {  
   background-color: #007bff;
   width: 100%;
